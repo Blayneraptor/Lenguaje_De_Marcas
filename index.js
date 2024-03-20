@@ -44,3 +44,17 @@ console.log(mensaje);
 for (let i=0; i < 5; i++){
     console.log("Número: " + i);
 }
+i = 5;
+a = ++i; //a = 6, i = 6 incrementa primero , luego asigna
+b = i++; // b = 6, i = 7 asigna primero, luego incrementa
+
+
+ // Ejemplo algo de POO
+ 
+let persona = {
+    nombre:"Juan",
+    edad: 30,
+    ciudad: "Málaga"
+};
+
+console.log(persona.nombre); //Saldría Juan
