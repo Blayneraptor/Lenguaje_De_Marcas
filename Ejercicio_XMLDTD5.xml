@@ -7,18 +7,12 @@
 ]>
 
 <listacompra>
-    <item nombre = "Manzana"/>
+    <item nombre="Leche" cantidad="12 litros" />
+    <item nombre="Pan" cantidad="3 barras de cuarto" />
 </listacompra>
 
-
-<!--<listacompra>
-<leche cantidad="12 litros" ></leche>
-<pan cantidad="3 barras de cuarto" />
-</listacompra>
--->
 
 <!--
-
 El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
 que lo sea. La DTD no debe modificarse.
 
