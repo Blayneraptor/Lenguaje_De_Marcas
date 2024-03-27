@@ -7,9 +7,11 @@
 ]>
 
 <jugadoresfutbol>
-    <jugador nombre="Alfredo Di Stéfano" codigo="1" />
-</jugadoresfutbol>
-
+    <jugador nombre="Alfredo Di Stéfano" codigo="a1"/>
+    <jugador nombre="Edison Arantes do Nascimento Pelé" codigo="a2" />
+    <jugador nombre="Diego Armando Maradona" codigo="a3" />
+    <jugador nombre="Johan Cruyff" codigo="a4" />
+    </jugadoresfutbol>
 
 <!--
     
