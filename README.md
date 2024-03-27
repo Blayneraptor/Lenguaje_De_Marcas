@@ -1,4 +1,4 @@
-# Ejercicios de Lenguaje de Marcas realizados durante el curso.
+# Ejercicios de Lenguaje de Marcas realizados durante el curso (Y otros añadidos para mi aprendizaje).
 
 🌐 Este repositorio contiene una colección de ejercicios de lenguajes de marcas.
 
