@@ -11,7 +11,7 @@
 El siguiente documento XML no es válido, modificalo, lo mínimo posible, para
 que lo sea. La DTD no debe modificarse.
 
-b) pelicula.xml
+c)pelicula.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pelicula [
