@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE declaraciones [
- <!ELEMENT declaraciones (consonante|variable*)>
+ <!ELEMENT declaraciones (consonante*, variable*)>
  <!ELEMENT consonante (#PCDATA)>
  <!ATTLIST consonante valor CDATA #REQUIRED>
  <!ELEMENT variable (#PCDATA)>
  <!ATTLIST variable tipo CDATA #IMPLIED>
 ]>
- 
 <declaraciones>
  <consonante valor="3.141592">PI</consonante>
  <variable tipo="real">radio</variable>
