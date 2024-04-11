@@ -24,7 +24,6 @@ Construye las sentencias XPath que permitan obtener los siguientes datos:
 6. Identificadores de los contactos que tienen movil.
     /agenda/contactos/persona[telefonos/movil]
     
-
 -->
 
 <!DOCTYPE agenda>
