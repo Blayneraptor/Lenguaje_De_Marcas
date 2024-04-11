@@ -7,26 +7,33 @@ Construye las sentencias XPath que permitan obtener los siguientes datos:
 1. Nombre del Instituto.
     /ies/nombre
 
-2. Página web del instituto
-    /ies/nombre/web
+2. Página web del instituto.
+    /ies/web
 
-3. Nombre de las
+3. Nombre de las asignaturas.
     /ies/ciclos/ciclo/nombre
 
-4. 
+4. Identificador de los ciclos.
     /ies/ciclos/ciclo/@id
 
-5. 
+5. Año de los decretos de título.
     /ies/ciclos/ciclo/decretoTitulo/@año
 
-6. 
-    
+6. Ciclos de grado medio.
+    /ies/ciclos/ciclo[grado="Medio"]
 
-7. 
-    
+7. Nombre de los ciclos de grado superior.
+    /ies/ciclos/ciclo[grado="Superior"]/nombre
+
+8.
+
+
+9.
+
+10.
+
+
 -->
-
-
 
 <ies>
  <nombre>IES Gonzalo Nazareno</nombre>
