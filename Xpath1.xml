@@ -25,12 +25,11 @@ Construye las sentencias XPath que permitan obtener los siguientes datos:
 7. Nombre de los ciclos de grado superior.
     /ies/ciclos/ciclo[grado="Superior"]/nombre
 
-8.
+8. Nombre de los ciclos formativos anteriores a 2010.
+    /ies/ciclos/ciclo[decretoTitulo/@año<2010]/nombre
 
-
-9.
-
-10.
+9. Nombre de los ciclos formativos de 2008 o 2010.
+    /ies/ciclos/ciclo[decretoTitulo/@año=2008 or decretoTitulo/@año = 2010]/nombre
 
 
 -->
