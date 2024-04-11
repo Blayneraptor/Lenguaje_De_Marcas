@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- Ejercicio 2
-Dado el xml del ejercicio 1 de este documento:
-Construye las sentencias XPath que permitan obtener los siguientes datos:
-
 1. Nombre de los módulos que se imparten en el instituto.
     /ies/modulos/modulo/nombre
 
-2. 
+2. Nombre de los módulos del ciclo ASIR.
     /ies/modulos/modulo[ciclo="ASIR"]/nombre
 
-3. 
+3. Nombre de los módulos del segundo curso.
     /ies/modulos/modulo[curso=2]/nombre
 
-4. 
+4. Nombre de los módulos con menos de 5 horas semanales.
     /ies/modulos/modulo[horasSemanales<5]/nombre
 
-5. 
-    /ies/modulos/modulo[horasSemanales<5]/nombre
-
-6. 
+5. Nombre de los módulos del primer curso del ciclo ASIR.
     /ies/modulos/modulo[curso=1 and ciclo="ASIR"]/nombre
 
-7. 
-     /ies/modulos/modulo[curso=1 and ciclo="ASIR"]/nombre
-
-8. 
-
-9. 
-
+6. Horas semanales de los módulos con más de 3 horas semanales.
+    /ies/modulos/modulo[horasSemanales>3]/horasSemanales
 
 -->
-
 
 <ies>
  <modulos>
