@@ -45,5 +45,6 @@ Construye las expresiones XPath que permitan obtener los siguientes datos:
     /inventario/producto[nombre="Monitor"]/@codigo
 
 9. Extraer el código de los productos que pesen más de un cuarto de kilo
-    
+    /inventario/producto[peso/@unidad="g" and number(peso) > 250 or (peso/@unidad="kg" and number(peso) > 0.250)]/@codigo
+
 -->
