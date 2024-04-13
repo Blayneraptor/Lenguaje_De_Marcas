@@ -12,3 +12,9 @@
 El repositorio está organizado en carpetas según el tipo de lenguaje de marcas y el formato específico. Los temas incluyen:
 
 - 📁 HTML, CSS, JS, Markdown (MD), XML, y formatos de sindicación como Atom y RSS.
+
+## Herramientas Adicionales
+
+Además de las herramientas mencionadas anteriormente, aquí hay una herramienta útil para validar y formatear documentos XML:
+
+- ✅ **Validador y Formateador de XML**: [FreeFormatter XML Formatter](https://www.freeformatter.com/xml-formatter.html)
