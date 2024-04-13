@@ -30,14 +30,20 @@ Construye las expresiones XPath que permitan obtener los siguientes datos:
     /inventario/producto[last()]/peso/text()
 
 4. Extraer las distintas unidades en las que se han almacenado los pesos.
+    /inventario/producto/peso/@unidad
 
 5. Extraer el penúltimo codigo.
+    /inventario/producto[last()]/@codigo
 
 6. Extraer el peso del elemento cuyo codigo sea AAA-111.
+    /inventario/producto[@codigo="AAA-111"]/peso/text()
 
 7. Extraer el nombre de los productos que hayan puesto el peso en gramos.
-
+     /inventario/producto[peso/@unidad='g']/nombre/text()
+   
 8. Extraer el codigo de los productos cuyo nombre sea Monitor.
+    /inventario/producto[nombre="Monitor"]/@codigo
 
 9. Extraer el código de los productos que pesen más de un cuarto de kilo
+    
 -->
