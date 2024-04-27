@@ -11,7 +11,7 @@
 
 El repositorio está organizado en carpetas según el tipo de lenguaje de marcas y el formato específico. Los temas incluyen:
 
-- 📁 HTML, CSS, JS, Markdown (MD), XML, y formatos de sindicación como Atom y RSS.
+- 📁 HTML,JSON, CSS, JS, Markdown (MD), XML, y formatos de sindicación como Atom y RSS.
 
 ## Herramientas Adicionales
 
