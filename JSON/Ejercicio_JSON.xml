@@ -34,7 +34,7 @@ un individuo -->
         "street": "21 2nd Street",
         "city": "New York",
         "state": "NY",
-        "zipCode": "10021"
+        "postalCode": "10021"
       },
       "phones": [
         {
