@@ -14,7 +14,7 @@
 </libros>
 ```
 
-## 2. El título de todos los libros de menos de 400 páginas.
+### 2. El título de todos los libros de menos de 400 páginas.
 ○ Se debe obtener únicamente los datos, sin etiquetas.
 
 ```xml
@@ -22,14 +22,14 @@ for $titulo in doc("biblioteca.xml")//libro[paginas < 400]/titulo/text()
 return $titulo
 ```
 
-## 3. La cantidad de libros de más de 400 páginas. 
+### 3. La cantidad de libros de más de 400 páginas. 
 
 ```xml
 let $cantidad := count(doc("biblioteca.xml")//libro[paginas > 400])
 return <cantidad>{ $cantidad }</cantidad>
 ```
 
-## 4. Una lista HTML con el título de los libros de la editorial O'Reilly Media ordenados por título.  
+### 4. Una lista HTML con el título de los libros de la editorial O'Reilly Media ordenados por título.  
 
 ```xml
 <ul>{
@@ -39,7 +39,7 @@ return <cantidad>{ $cantidad }</cantidad>
 }</ul>
 ```
 
-## 5. Título y editorial de los libros de 2018 y 2019.
+### 5. Título y editorial de los libros de 2018 y 2019.
 - Los datos de cada libro deben estar dentro de un elemento `<libro>`.
 - El título y la editorial deben ir dentro de los elementos `<titulo>` y `<editorial>` respectivamente.
 
@@ -51,7 +51,7 @@ return <cantidad>{ $cantidad }</cantidad>
 }</libros>
 ```
 
-## 6. Título y editorial de los libros con más de un autor.
+### 6. Título y editorial de los libros con más de un autor.
 - Los datos de cada libro deben estar dentro de un elemento `<libro>`.
 - El título y la editorial deben ir dentro de los elementos `<titulo>` y `<editorial>` respectivamente.
 
@@ -63,7 +63,7 @@ return <cantidad>{ $cantidad }</cantidad>
 }</libros>
 ```
 
-## 7. Título y año de publicación de los libros que tienen versión electrónica.
+### 7. Título y año de publicación de los libros que tienen versión electrónica.
 - Los datos de cada libro deben estar dentro de un elemento `<libro>`.
 - El título y el año de publicación deben ir dentro de los elementos `<titulo>` y `<fecha-publicacion>` respectivamente.
 
@@ -74,7 +74,7 @@ return <cantidad>{ $cantidad }</cantidad>
 }</libros>
 ```
 
-## 8. Título de los libros que no tienen versión electrónica.
+### 8. Título de los libros que no tienen versión electrónica.
 - Se debe obtener únicamente los datos, sin etiquetas
 
 ```xml
