@@ -1,16 +1,18 @@
 ## Escribe las consultas XQuery que permitan obtener la siguiente información sobre el ejercicio de biblioteca:
 
-##  1. Título y editorial de todos los libros.
-○ Los datos de cada libro deben estar dentro de un elemento <libro>.
-○ El título y la editorial de cada libro deben estar separados por un guión
-medio (-).
+### 1. Título y editorial de todos los libros.
 
+- Los datos de cada libro deben estar dentro de un elemento `<libro>`.
+- El título y la editorial de cada libro deben estar separados por un guión medio (-).
+
+```xml
 <libros>
 {
     for $libro in doc("biblioteca.xml")//libro
     return <libro>{concat($libro/titulo/text(), ' - ', $libro/editorial/text())}</libro>
 }
 </libros>
+
 
 ## 2. El título de todos los libros de menos de 400 páginas.
 ○ Se debe obtener únicamente los datos, sin etiquetas.
@@ -41,11 +43,3 @@ ordenados por título.
 ## 8. Título de los libros que no tienen versión electrónica.
 ○ Se debe obtener únicamente los datos, sin etiquetas   
 
-
-<span>titulo</span>
-
-
-<style>
-span { color: blue; }
-</style>
-    
