@@ -172,24 +172,82 @@
 /universidad/carreras/carrera/nombre
 
 2. Años de plan de estudio de las carreras.
+
+/universidad/carreras/carrera/plan
+
 3. Nombres de todos los alumnos.
+
+/universidad/alumnos/alumno/nombre
+
 4. Identificadores de todas las carreras.
+
+/universidad/carreras/carrera/@id
+
 5. Datos de la carrera cuyo id es c01.
+
+/universidad/carreras/carrera[@id='c01']
+
 6. Centro en que se estudia de la carrera cuyo id es c02.
+
+/universidad/carreras/carrera[@id='c02']/centro
+
 7. Nombre de las carreras que tengan subdirector.
+
+/universidad/carreras/carrera[subdirector]/nombre
+
 8. Nombre de los alumnos que estén haciendo proyecto.
+
+/universidad/alumnos/alumno[estudios/proyecto]/nombre
+
 9. Códigos de las carreras en las que hay algún alumno matriculado.
+
+/universidad/alumnos/alumno/estudios/carrera/@codigo
+
 10.Apellidos y nombre de los alumnos con beca.
+
+/universidad/alumnos/alumno[@beca='si']/concat(apellido1, ' ', apellido2, ', ', nombre)
+
 11.Nombre de las asignaturas de la titulación c04.
+
+/universidad/asignaturas/asignatura[@titulacion='c04']/nombre
+
 12.Nombre de las asignaturas de segundo trimestre.
+
+/universidad/asignaturas/asignatura[trimestre=2]/nombre
+
 13.Nombre de las asignaturas que no tienen 4 créditos teóricos.
+
+/universidad/asignaturas/asignatura[creditos_teoricos != 4]/nombre
+
 14.Código de la carrera que estudia el último alumno.
+
+/universidad/alumnos/alumno[last()]/estudios/carrera/@codigo
+
 15.Código de las asignaturas que estudian mujeres.
+
+/universidad/alumnos/alumno[sexo='Mujer']/estudios/asignatura/@codigo
+
 16.Códigos de las carreras que estudian los alumnos matriculados en alguna 
 asignatura.
+
+/universidad/alumnos/alumno/estudios/asignatura/../@codigo
+
 17.Nombre de las asignaturas que estudia Luisa.
+
+/universidad/alumnos/alumno[nombre='Luisa']/estudios/asignatura/nombre
+
 18.Primer apellido de los alumnos matriculados en Ingeniería del Software.
+
+/universidad/alumnos/alumno[estudios/asignatura/@titulacion='c01' and estudios/asignatura/nombre='Ingeniería del Software']/apellido1
+
 19.Nombre de los alumnos matriculados en asignaturas con 0 créditos prácticos 
 y que estudien la carrera de I.T. Informática.
+
+/universidad/alumnos/alumno[estudios/asignatura[@titulacion='c01' and creditos_practicos=0]]/nombre
+
 20.Nombre de los alumnos que estudian carreras cuyos planes son anteriores a 
-2002 -->
+2002
+
+/universidad/alumnos/alumno[estudios/carrera[@plan<2002]]/nombre
+
+-->
