@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--Se proporciona un documento xml llamado Universidad.xml. -->
+<!--Se proporciona un documento xml llamado Universidad.xml. y más abajo están las preguntas -->
 
 <universidad>
     <nombre>Universidad de Victoria</nombre>
