@@ -18,6 +18,7 @@
 <!--
 Construye las expresiones XPath que permitan obtener los siguientes datos:
 
+
 1. Extraer todos los elementos <peso> (etiqueta incluida).
     /inventario/producto/peso
 
