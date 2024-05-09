@@ -23,7 +23,8 @@ count(//pelicula[genero = "Drama"])
 ### 4. Listar todos los directores de películas de ciencia ficción.
 
 ```xml
-distinct-values(//pelicula[genero = "Ciencia ficción"]/director)
+for $pelicula in /pelicula/pelicula[genero ="Ciencia ficcion"]
+return $pelicula/director
 ```
 
 ### 5. Encontrar todas las películas cuyo título contenga la palabra "Matrix" o "Forrest".
