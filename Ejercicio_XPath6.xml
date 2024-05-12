@@ -64,11 +64,9 @@ Aplicaciones Web
 b) Nombre de los ciclos que incluyen el módulo "Lenguajes de Marcas y Sistemas de
 Gestión de la Información"
 
+ies/modulos/modulo[nombre="Lenguajes de Marcas y Sistemas de
+Gestión de la Información"]/ciclo/text()
 
-
-Administración de Sistemas Informáticos en Red
-Desarrollo de Aplicaciones Multiplataforma
-Desarrollo de Aplicaciones Web
 c) Nombre de los módulos de los ciclos de grado superior.
 Gestión de Bases de Datos
 Lenguajes de Marcas y Sistemas de Gestión de la Información
