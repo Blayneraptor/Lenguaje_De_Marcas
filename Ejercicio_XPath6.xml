@@ -77,9 +77,6 @@ d) Nombre de los módulos de los ciclos cuyo título se aprobó en 2009
 
 e) Grado de los ciclos con módulos de primer curso
 
+/ies/ciclos/ciclo[../modulos/modulo/curso="1"]/grado/text()
 
-
-Superior
-Superior
-Superior
 -->
