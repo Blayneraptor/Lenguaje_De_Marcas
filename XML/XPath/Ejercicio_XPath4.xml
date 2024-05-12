@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inventario>
     <producto codigo="AAA-111">
-    <nombre>Teclado</nombre>
-    <peso unidad="g">480</peso>
+        <nombre>Teclado</nombre>
+        <peso unidad="g">480</peso>
     </producto>
     <producto codigo="ACD-981">
-    <nombre>Monitor</nombre>
-    <peso unidad="kg">1.8</peso>
+        <nombre>Monitor</nombre>
+        <peso unidad="kg">1.8</peso>
     </producto>
     <producto codigo="DEZ-138">
-    <nombre>Raton</nombre>
-    <peso unidad="g">50</peso>
+        <nombre>Raton</nombre>
+        <peso unidad="g">50</peso>
     </producto>
-    </inventario>
-    
+</inventario>
+
 
 <!--
 Construye las expresiones XPath que permitan obtener los siguientes datos:
@@ -46,6 +46,7 @@ Construye las expresiones XPath que permitan obtener los siguientes datos:
     /inventario/producto[nombre="Monitor"]/@codigo
 
 9. Extraer el código de los productos que pesen más de un cuarto de kilo
-    /inventario/producto[peso/@unidad="g" and number(peso) > 250 or (peso/@unidad="kg" and number(peso) > 0.250)]/@codigo
+    /inventario/producto[peso/@unidad="g" and number(peso) > 250 or (peso/@unidad="kg" and number(peso)
+> 0.250)]/@codigo
 
 -->
