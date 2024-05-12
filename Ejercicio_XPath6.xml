@@ -59,9 +59,13 @@
 a) Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes"
 Aplicaciones Web
 
+/ies/modulos/modulo[ciclo='SMR']/nombre/text()
 
 b) Nombre de los ciclos que incluyen el módulo "Lenguajes de Marcas y Sistemas de
 Gestión de la Información"
+
+
+
 Administración de Sistemas Informáticos en Red
 Desarrollo de Aplicaciones Multiplataforma
 Desarrollo de Aplicaciones Web
