@@ -71,11 +71,14 @@ c) Nombre de los módulos de los ciclos de grado superior.
 
 /ies/ciclos/ciclo[grado='Superior']/@id
 
-d) Nombre de los módulos de los ciclos cuyo título de aprobó en 2009
-Gestión de Bases de Datos
-Lenguajes de Marcas y Sistemas de Gestión de la Información
-Implantación de Aplicaciones Web
+d) Nombre de los módulos de los ciclos cuyo título se aprobó en 2009
+
+/ies/ciclos/ciclo[decretotitulo/@año="2009"]/nombre
+
 e) Grado de los ciclos con módulos de primer curso
+
+
+
 Superior
 Superior
 Superior
